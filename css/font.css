@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Pixel';
+    font-display: swap;
+    src: url('./Pixel.ttf') format("truetype");
+  }
+
+body {
+    font-family: 'Pixel';
+}
