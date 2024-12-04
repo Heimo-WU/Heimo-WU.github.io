@@ -163,3 +163,26 @@
 	}
   }
 
+/* 自定义滚动条样式 */
+::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+	background-color: rgba(245, 73, 73, 0.2);  /* 红色调背景 */
+	border-radius: 2em;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background-color: #f54949;  /* 红色滚动条滑块 */
+	background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent);
+	border-radius: 2em;
+  }
+  
+  ::-webkit-scrollbar-corner {
+	background-color: transparent;
+  }
+  
+
+
