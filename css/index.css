@@ -3311,13 +3311,6 @@ figure.highlight pre .javascript .function {
   -ms-transition: all 0.5s;
   transition: all 0.5s;
 }
-#page-header:not(.not-top-img):before {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: var(--mark-bg);
-  content: '';
-}
 #page-header.full_page {
   height: 100vh;
   background-attachment: fixed;
@@ -5958,7 +5951,7 @@ blockquote.pullquote.right {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.4);
   content: '';
 }
 [data-theme='dark'] .container code {
